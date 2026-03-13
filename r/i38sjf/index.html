@@ -16,8 +16,8 @@
 </head>
 <body>
 <script>
-fetch("https://dev-base-alpha.com/xpst/count.php?slug=i38sjf",{method:"POST"}).finally(function(){window.location.href="https://x.com/home";});
-setTimeout(function(){window.location.href="https://x.com/home";},800);
+navigator.sendBeacon("https://dev-base-alpha.com/xpst/count.php?slug=i38sjf");
+window.location.href="https://x.com/home";
 </script>
 <p>Redirecting...</p>
 </body>
